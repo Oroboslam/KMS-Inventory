@@ -31,6 +31,8 @@ The Dataset is an Excel file containing order data from 2009-2012. It includes i
     - For aggregatind data to identify trends
     - For Filtering data based on conditions to answer business questions
     - Grouping data for consumer and product segmentation analysis
+ 
+      
   select [Product_Category], sum(Sales) as Totalsales
  from KmsCompany
  group by [Product_Category]
